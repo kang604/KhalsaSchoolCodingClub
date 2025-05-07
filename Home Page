@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Khalsa Coding Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Khalsa School Coding Club</h1>
+    <p id="greeting"></p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join Us</a>
+  </nav>
+
+  <section>
+    <h2>Welcome to the Coding Club!</h2>
+    <p>
+      Our after-school coding club is where imagination meets innovation! Whether you're a
+      beginner or a code ninja, you'll have fun learning to build websites, games, and apps.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Khalsa School Coding Club</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
