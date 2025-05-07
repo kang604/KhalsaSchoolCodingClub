@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Home | Khalsa Coding Club</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -12,16 +12,20 @@
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="join.html">Join Us</a>
+    <div class="logo">👨‍💻 Coding Club</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="join.html">Join Us</a></li>
+    </ul>
   </nav>
 
   <section>
-    <h2>Welcome to the Coding Club!</h2>
+    <h2>Welcome!</h2>
     <p>
-      Our after-school coding club is where imagination meets innovation! Whether you're a
-      beginner or a code ninja, you'll have fun learning to build websites, games, and apps.
+      Explore the world of code with friends after school! Build websites, games, and apps while
+      having fun and developing real skills for the future.
     </p>
   </section>
 
