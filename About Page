@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Khalsa Coding Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>About the Club</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join Us</a>
+  </nav>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      The Khalsa School Coding Club empowers students to explore technology, solve real-world
+      problems, and build confidence through hands-on coding.
+    </p>
+
+    <h2>What We Learn</h2>
+    <ul>
+      <li>HTML, CSS, and JavaScript</li>
+      <li>Python and Game Development</li>
+      <li>Team Projects and Hackathons</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Khalsa School Coding Club</p>
+  </footer>
+</body>
+</html>
 
