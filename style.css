@@ -14,15 +14,59 @@ header {
 
 nav {
   background-color: #0056b3;
-  padding: 0.75rem;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
 }
 
-nav a {
+nav .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav .menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
   font-weight: bold;
+}
+
+/* Responsive navbar */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav .menu-toggle {
+    display: block;
+  }
 }
 
 section {
@@ -36,4 +80,12 @@ footer {
   padding: 1rem;
   background-color: #e0e0e0;
   margin-top: 2rem;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
