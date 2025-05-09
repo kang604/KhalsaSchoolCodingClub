@@ -4,16 +4,101 @@
   <meta charset="UTF-8" />
   <title>About | Khalsa Coding Club</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+
+    header {
+      background-color: #0077ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #005bb5;
+      padding: 10px 20px;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 18px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #005bb5;
+    }
+
+    section ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+
+    .club-image {
+      width: 100%;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .corner-logo {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 60px;
+      height: auto;
+      z-index: 1000;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Corner Logo -->
+  <img src="1513605b-776f-4613-9b4c-e00fd7de87aa.png" alt="Lion Logo" class="corner-logo">
+
   <header>
     <h1>About the Club</h1>
   </header>
 
   <nav>
     <div class="logo">👨‍💻 Coding Club</div>
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-    <ul id="nav-links">
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="join-us.html">Join Us</a></li>
@@ -23,59 +108,25 @@
   <section>
     <h2>Our Mission</h2>
     <p>
-At the Khalsa School Coding Club, our mission is to empower students by turning their ideas into reality through the power of code. We aim to cultivate creativity, critical thinking, and collaboration by teaching essential programming skills in an inclusive and engaging environment. Whether students are dreaming of designing games, building websites, or launching their own apps, we provide the guidance and tools to help make it happen — and have fun while doing it!
+      At the Khalsa School Coding Club, our mission is to empower students by turning their ideas into reality through the power of code. We aim to cultivate creativity, critical thinking, and collaboration by teaching essential programming skills in an inclusive and engaging environment. Whether students are dreaming of designing games, building websites, or launching their own apps, we provide the guidance and tools to help make it happen — and have fun while doing it!
+    </p>
 
-
-</p>
     <h2>Topics We Cover</h2>
     <ul>
-      <li>
-* **Web Development:** HTML, CSS, and JavaScript fundamentals to build interactive, responsive websites.
-* **Python Programming:** Learn core programming concepts, automation, and create simple games using Python.
-* **Game Design & Development:** Dive into the basics of designing and coding games that are fun, functional, and user-friendly.
-* **Team Projects:** Collaborate with peers on real-world challenges and group-based projects.
-* **Hackathons & Challenges:** Participate in coding sprints, logic puzzles, and mini-hackathons to test and improve your skills.
-* **Soft Skills:** Build leadership, communication, and teamwork through shared goals and problem-solving.
-</li>
+      <li><strong>Web Development:</strong> HTML, CSS, and JavaScript fundamentals to build interactive, responsive websites.</li>
+      <li><strong>Python Programming:</strong> Learn core programming concepts, automation, and create simple games using Python.</li>
+      <li><strong>Game Design & Development:</strong> Dive into the basics of designing and coding games that are fun, functional, and user-friendly.</li>
+      <li><strong>Team Projects:</strong> Collaborate with peers on real-world challenges and group-based projects.</li>
+      <li><strong>Hackathons & Challenges:</strong> Participate in coding sprints, logic puzzles, and mini-hackathons to test and improve your skills.</li>
+      <li><strong>Soft Skills:</strong> Build leadership, communication, and teamwork through shared goals and problem-solving.</li>
     </ul>
+
+    <img src="images (3).jpg" alt="" class="club-image">
   </section>
 
   <footer>
     <p>© 2025 Khalsa School Coding Club</p>
   </footer>
-
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khalsa School</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .corner-logo {
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      width: 60px; /* Adjust size as needed */
-      height: auto;
-      z-index: 1000; /* Ensure it's on top */
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Corner Logo -->
-  <img src="ChatGPT Image May 8, 2025, 01_36_17 PM.png" alt="Lion Logo" class="corner-logo">
-
- 
-
-</body>
-</html>
-
 
   <script src="script.js"></script>
 </body>
